@@ -1,5 +1,5 @@
 ---
-name: review
+name: cc-review
 description: 适用于完成任务、实现主要功能或合并代码前，验证工作是否符合要求
 tags: 代码评审, Git工作流, 代码验证, 开发流程
 allowed-tools: Read, Grep, Glob, Bash(git *)

@@ -1,5 +1,5 @@
 ---
-name: docs
+name: cc-docs
 description: 更新或生成代码文档
 tags: 文档, 注释, README
 allowed-tools: Read, Edit, Write, Grep, Glob

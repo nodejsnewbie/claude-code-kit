@@ -1,5 +1,5 @@
 ---
-name: refactor
+name: cc-refactor
 description: 重构代码，改善结构和可读性
 tags: 重构, 代码质量, 清理
 allowed-tools: Read, Edit, MultiEdit, Grep, Glob

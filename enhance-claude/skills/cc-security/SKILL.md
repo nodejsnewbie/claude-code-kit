@@ -1,5 +1,5 @@
 ---
-name: security
+name: cc-security
 description: 安全审查，检查密钥泄露和常见漏洞
 tags: 安全, 审计, 漏洞, 密钥
 allowed-tools: Read, Grep, Glob

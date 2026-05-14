@@ -1,5 +1,5 @@
 ---
-name: test
+name: cc-test
 description: 运行相关测试，分析失败原因
 tags: 测试, 质量, pytest
 allowed-tools: Read, Grep, Glob, Bash(pytest *), Bash(python *)

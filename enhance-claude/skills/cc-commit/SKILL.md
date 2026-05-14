@@ -1,5 +1,5 @@
 ---
-name: commit
+name: cc-commit
 description: 提交代码，自动分组并生成符合规范的 commit message
 tags: Git工作流, 提交, 版本控制
 allowed-tools: Bash(git *)

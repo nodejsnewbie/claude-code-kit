@@ -1,5 +1,5 @@
 ---
-name: debug
+name: cc-debug
 description: 诊断和修复 bug，基于错误日志定位问题
 tags: 调试, 排错, 问题定位
 allowed-tools: Read, Grep, Glob, Bash(python *), Bash(pytest *)

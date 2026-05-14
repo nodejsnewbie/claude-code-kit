@@ -1,5 +1,5 @@
 ---
-name: deploy-check
+name: cc-deploy
 description: 上线前全面检查，确保项目可部署
 tags: 部署, 检查, CI/CD, 质量
 allowed-tools: Read, Grep, Glob, Bash(git *), Bash(pytest *), Bash(ruff *), Bash(mypy *)

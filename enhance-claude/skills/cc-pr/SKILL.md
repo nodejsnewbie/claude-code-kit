@@ -1,5 +1,5 @@
 ---
-name: pr
+name: cc-pr
 description: 生成详细的 Pull Request 描述
 tags: PR, Git工作流, 代码评审
 allowed-tools: Bash(git *)
