@@ -27,7 +27,7 @@ Claude Code 技能包：分析项目并生成 CLAUDE.md，附带 9 个常用技�
 对 Claude Code 说：
 
 ```
-从 https://github.com/yourname/enhance-claude 安装技能
+从 https://github.com/nodejsnewbie/claude-code-kit 安装技能
 ```
 
 Claude 会自动把所有 SKILL.md 复制到 `~/.claude/skills/`。
