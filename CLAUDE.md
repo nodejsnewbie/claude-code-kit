@@ -82,15 +82,15 @@ enhance-claude/
 ├── SKILL.md          - 核心技能：分析项目并生成 CLAUDE.md
 ├── settings.json     - 权限配置
 └── skills/           - 9 个常用技能
-    ├── commit/
-    ├── debug/
-    ├── deploy-check/
-    ├── docs/
-    ├── pr/
-    ├── refactor/
-    ├── review/
-    ├── security/
-    └── test/
+    ├── cc-commit/
+    ├── cc-debug/
+    ├── cc-deploy/
+    ├── cc-docs/
+    ├── cc-pr/
+    ├── cc-refactor/
+    ├── cc-review/
+    ├── cc-security/
+    └── cc-test/
 ```
 
 ## 常用命令
@@ -118,12 +118,12 @@ git add . && git commit -m "..." && git push
 ## 常用操作
 执行以下操作时，先读对应的 SKILL.md 再按流程操作：
 
-- 代码评审 → `.claude/skills/review/SKILL.md`
-- 提交代码 → `.claude/skills/commit/SKILL.md`
-- 部署检查 → `.claude/skills/deploy-check/SKILL.md`
-- 运行测试 → `.claude/skills/test/SKILL.md`
-- 生成 PR → `.claude/skills/pr/SKILL.md`
-- 调试排错 → `.claude/skills/debug/SKILL.md`
-- 代码重构 → `.claude/skills/refactor/SKILL.md`
-- 文档维护 → `.claude/skills/docs/SKILL.md`
-- 安全审查 → `.claude/skills/security/SKILL.md`
+- 代码评审 → `.claude/skills/cc-review/SKILL.md`
+- 提交代码 → `.claude/skills/cc-commit/SKILL.md`
+- 部署检查 → `.claude/skills/cc-deploy/SKILL.md`
+- 运行测试 → `.claude/skills/cc-test/SKILL.md`
+- 生成 PR → `.claude/skills/cc-pr/SKILL.md`
+- 调试排错 → `.claude/skills/cc-debug/SKILL.md`
+- 代码重构 → `.claude/skills/cc-refactor/SKILL.md`
+- 文档维护 → `.claude/skills/cc-docs/SKILL.md`
+- 安全审查 → `.claude/skills/cc-security/SKILL.md`

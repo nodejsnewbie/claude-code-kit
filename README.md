@@ -12,15 +12,15 @@ Claude Code 技能包：分析项目并生成 CLAUDE.md，附带 9 个常用技�
 **常用技能**
 | Skill | 用途 |
 |-------|------|
-| `/review` | 代码评审，按严重程度输出 checklist |
-| `/commit` | 提交代码，自动分组生成 commit message |
-| `/deploy-check` | 上线前检查，逐项验证 |
-| `/test` | 运行相关测试，分析失败原因 |
-| `/pr` | 生成 PR 描述 |
-| `/debug` | 调试排错，定位问题 |
-| `/refactor` | 代码重构建议 |
-| `/docs` | 更新文档和 docstring |
-| `/security` | 安全审查，检查密钥泄露 |
+| `/cc-review` | 代码评审，按严重程度输出 checklist |
+| `/cc-commit` | 提交代码，自动分组生成 commit message |
+| `/cc-deploy` | 上线前检查，逐项验证 |
+| `/cc-test` | 运行相关测试，分析失败原因 |
+| `/cc-pr` | 生成 PR 描述 |
+| `/cc-debug` | 调试排错，定位问题 |
+| `/cc-refactor` | 代码重构建议 |
+| `/cc-docs` | 更新文档和 docstring |
+| `/cc-security` | 安全审查，检查密钥泄露 |
 
 ## 安装
 
@@ -44,6 +44,7 @@ Claude 会自动把所有 SKILL.md 复制到 `~/.claude/skills/`。
 
 Claude 会分析项目结构，生成包含以下内容的 CLAUDE.md：
 
+- Andrej Karpathy's Coding Skills
 - 项目概述
 - 技术栈
 - 目录结构
@@ -54,10 +55,10 @@ Claude 会分析项目结构，生成包含以下内容的 CLAUDE.md：
 
 ### 使用其他技能
 
-- "review 一下代码"
-- "提交代码"
-- "做一遍 deploy check"
-- "debug 这个报错"
+- "cc-review 一下代码"
+- "cc-commit 提交代码"
+- "cc-deploy 检查部署"
+- "cc-debug 这个报错"
 
 ## 目录结构
 
@@ -65,15 +66,15 @@ Claude 会分析项目结构，生成包含以下内容的 CLAUDE.md：
 enhance-claude/
 ├── skills/
 │   ├── enhance-claude/SKILL.md
-│   ├── review/SKILL.md
-│   ├── commit/SKILL.md
-│   ├── deploy-check/SKILL.md
-│   ├── test/SKILL.md
-│   ├── pr/SKILL.md
-│   ├── debug/SKILL.md
-│   ├── refactor/SKILL.md
-│   ├── docs/SKILL.md
-│   └── security/SKILL.md
+│   ├── cc-review/SKILL.md
+│   ├── cc-commit/SKILL.md
+│   ├── cc-deploy/SKILL.md
+│   ├── cc-test/SKILL.md
+│   ├── cc-pr/SKILL.md
+│   ├── cc-debug/SKILL.md
+│   ├── cc-refactor/SKILL.md
+│   ├── cc-docs/SKILL.md
+│   └── cc-security/SKILL.md
 ├── settings.json
 └── README.md
 ```
